@@ -19,7 +19,7 @@ body {
 .container img{
     /* object-fit: cover; */
     width: 100%;
-    height:auto;
+    height:500px;
     margin-bottom: 30px;    
 }
 
@@ -37,12 +37,14 @@ body {
 }
 
 
-.large-container #recipe-info-id{
-    display: flex;
-    /* display: block; */
-    justify-content: center;
-    align-items: center;
-    width: 45%;
+#recipe-info-id{
+    /* display: flex; */
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 45%; */
     /* margin-left: 100px;
     margin-right: 30px; */
      
@@ -54,10 +56,12 @@ body {
 }
 
 #cooking-info-id{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 45%; */
+    display: block;
+    margin: 0 auto;
 }
 .directions {
     margin-bottom: 100px
