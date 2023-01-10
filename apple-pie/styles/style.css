@@ -20,9 +20,7 @@ body {
     /* object-fit: cover; */
     width: 100%;
     height:auto;
-    margin-bottom: 30px;
-   
-    
+    margin-bottom: 30px;    
 }
 
 .container h1{
@@ -73,4 +71,17 @@ div {
 hr {
     margin: 20px auto 30px auto;
     /* width: 60%; */
+}
+
+ol {
+    counter-reset: list;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
